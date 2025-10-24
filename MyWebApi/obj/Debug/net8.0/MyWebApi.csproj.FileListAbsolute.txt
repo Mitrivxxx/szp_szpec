@@ -137,6 +137,12 @@
 //wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 //wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 //wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
+//wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/MyWebApi.sourcelink.json
+//wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/AutoMapper.dll
+//wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+//wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+//wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+//wsl.localhost/Ubuntu/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/appsettings.Development.json
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/appsettings.json
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/MyWebApi
@@ -144,6 +150,7 @@
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/MyWebApi.runtimeconfig.json
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/MyWebApi.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/MyWebApi.pdb
+/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/AutoMapper.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/BCrypt.Net-Next.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Humanizer.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
@@ -169,6 +176,10 @@
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
 /home/matsma/project/szp_szpec/MyWebApi/bin/Debug/net8.0/Npgsql.dll
@@ -259,6 +270,7 @@
 /home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/MyWebApi.csproj.CoreCompileInputs.cache
 /home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/MyWebApi.MvcApplicationPartsAssemblyInfo.cs
 /home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/MyWebApi.MvcApplicationPartsAssemblyInfo.cache
+/home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/MyWebApi.sourcelink.json
 /home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/staticwebassets.build.json
 /home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/staticwebassets.development.json
 /home/matsma/project/szp_szpec/MyWebApi/obj/Debug/net8.0/staticwebassets/msbuild.MyWebApi.Microsoft.AspNetCore.StaticWebAssets.props

@@ -1,33 +1,44 @@
+ï»¿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MyWebApi;
 using MyWebApi.Data;
+using MyWebApi.Mapping;
+using MyWebApi.Services;
+using MyWebApi.Services.Interface;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
-builder.Services.AddControllers(); // <== Kluczowa linia – w??cza kontrolery
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy => policy.WithOrigins("http://localhost:4200")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+});
+builder.Services.AddAutoMapper(cfg => { }, typeof(MappingProfile).Assembly);
 
-// Swagger / OpenAPI
+
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IUserService, UserService>();
 
-// Entity Framework Core + PostgreSQL
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
+app.UseCors("AllowAngular");
+app.UseHttpsRedirection();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-// Mapowanie kontrolerów
-app.MapControllers(); // <== To powoduje, ?e Swagger znajdzie Twoje kontrolery
+app.MapControllers();
 
 app.Run();
