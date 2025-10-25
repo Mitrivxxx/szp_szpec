@@ -7,5 +7,7 @@
         public string PasswordHash { get; set; } = default!;
         public string Role { get; set; } = "User";
 
+        public ICollection<Project> Projects { get; set; } = new List<Project>();
+
     }
 }
