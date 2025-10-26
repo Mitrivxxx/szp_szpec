@@ -1,4 +1,4 @@
-﻿namespace MyWebApi.DTOs
+﻿namespace MyWebApi.DTOs.Users
 {
     public class UserDto
     {

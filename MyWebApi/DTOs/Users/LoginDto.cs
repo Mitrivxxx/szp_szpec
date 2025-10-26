@@ -1,9 +1,8 @@
-﻿namespace MyWebApi.DTOs
+﻿namespace MyWebApi.DTOs.Users
 {
-    public class CreateUserDto
+    public class LoginDto
     {
         public string Login { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
-        public string? Role { get; set; }
     }
 }

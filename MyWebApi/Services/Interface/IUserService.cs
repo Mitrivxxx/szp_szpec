@@ -1,4 +1,4 @@
-﻿using MyWebApi.DTOs;
+﻿using MyWebApi.DTOs.Users;
 
 namespace MyWebApi.Services.Interface
 {

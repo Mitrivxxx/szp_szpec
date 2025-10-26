@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyWebApi.Data;
-using MyWebApi.DTOs;
+using MyWebApi.DTOs.Users;
 using MyWebApi.Model;
 using MyWebApi.Services.Interface;
 
