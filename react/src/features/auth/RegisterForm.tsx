@@ -29,10 +29,7 @@ export function RegisterForm() {
       <h3>Rejestracja</h3>
       <form onSubmit={submit}>
         <div>
-          <label>
-            Login:{" "}
-            <input value={login} onChange={(e) => setLogin(e.target.value)} name="login" />
-          </label>
+         
         </div>
         <div>
           <label>
