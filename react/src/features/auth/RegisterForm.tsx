@@ -8,7 +8,7 @@ export function RegisterForm() {
   const [message, setMessage] = useState<string | null>(null);
 
   const { register: registerUser } = useAuth();
-
+//test
   
   const submit = async (e: FormEvent) => {
     e.preventDefault();
