@@ -30,6 +30,15 @@ builder.Services.AddScoped<IProjectService, ProjectService>();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy => policy
+            .WithOrigins("http://localhost:3000") 
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
+
 
 builder.Services.AddSwaggerGen(c =>
 {
@@ -41,7 +50,7 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-app.UseCors("AllowAngular");
+app.UseCors("AllowReactApp");
 app.UseHttpsRedirection();
 
 if (app.Environment.IsDevelopment())

@@ -21,6 +21,10 @@ namespace MyWebApi.Controllers
             _userService = userService;
         }
 
+        /// <summary>
+        /// zwraca listę wszystkich użytkowników
+        /// </summary>
+        /// <returns>ok 200</returns>
         // GET: api/user
         [HttpGet]
         public async Task<IActionResult> GetUsers()
@@ -40,7 +44,11 @@ namespace MyWebApi.Controllers
             return Ok(user);
         }
 
-        // POST: api/user
+        /// <summary>
+        /// rejstracja nowego użytkownika
+        /// </summary>
+        /// <param name="createUserDto"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> CreateUser([FromBody] CreateUserDto createUserDto)
         {
@@ -65,7 +73,12 @@ namespace MyWebApi.Controllers
             }
         }
 
-        // POST: api/user/login
+
+        /// <summary>
+        /// logowanie uzytkownika
+        /// </summary>
+        /// <param name="loginDto"></param>
+        /// <returns></returns>
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
